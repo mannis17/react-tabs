@@ -18,7 +18,7 @@ const TabTitleItem = glamorous.li({
 const ActiveTabBorder = glamorous.div(
   {
     height: 4,
-    backgroundColor: "#0088dd",
+    backgroundColor: "#EF4924",
     position: "absolute",
     bottom: 0,
     transition: "all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
@@ -61,7 +61,7 @@ const TabAnchorItem = glamorous.a(
 
 const TabsContainer = glamorous.div({
   position: "relative",
-  borderBottom: "1px solid #dfdfdf"
+  borderBottom: "1px solid #EF4924"
 });
 
 const ReactTabs = glamorous.div({
